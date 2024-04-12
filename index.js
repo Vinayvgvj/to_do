@@ -11,7 +11,7 @@ const User = require('./schemas/newUser');
 const loginUser = require('./schemas/oldUser');
 
 
-const app = express();
+const app = express(); 
 const port = 5500;
 
 const {mongoURI , options} = require('./api/key')
